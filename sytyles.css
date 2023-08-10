@@ -12,8 +12,9 @@ body {
 :root {
     --color-primary: #FFE17B;
     --color-second: #fff;
-    --color-terceira : #FDFFAE;
+    --color-terceira:#FDFFAE;
     --color-quarta: #E9FFC2;
+    --color-quinta: #6c9968;
 }
 
 ul {
@@ -24,7 +25,7 @@ a {
     text-decoration: none;
     color: #fff;
     font-size: 1.2rem;
-    transition: .4s;
+    transition: .3s;
     font-family: helvetica;
 }
 
@@ -137,6 +138,7 @@ a:hover {
 
 .contato {
     background-color: var(--color-primary);
+    padding: 1rem;
 }
 
 .container-contact {
@@ -145,28 +147,59 @@ a:hover {
     justify-content: space-between;
     width: 800px;
     margin: 0 auto;
+    border-bottom: 2px solid var(--color-quarta);
 }
 
 .card-2 {
     color: #6c9968;
     text-align: center;
-    margin-top: 1.3rem;
 }
 
 .card-2 h4,
 .card-2 p {
     margin-top: 0.4rem;
 }
-.card-2 p{
-    font-size: 1.2rem;
-    color: #675D50;
+.title-2 {
+    margin-top: 2rem;
 }
-.icon {
-    font-size: 1.5rem;
-    margin: .4rem .4rem;
-    color: #675D50;
-    
+
+.card-2 p
+{
+ color: #675D50;
+ font-size: 1.2rem;
 }
+
+.social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-link a {
+    font-size: 1.4rem;
+    color: #675D50;
+    border-radius: 50%;
+    transition: 0.3s;
+   padding: 1rem;
+}
+
+.social-link a:hover {
+    background: var(--color-quinta);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
