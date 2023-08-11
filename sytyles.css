@@ -298,6 +298,134 @@ a:hover {
     margin-top: 1rem;
 }
 
+@media (max-width:425px) {
+    .nav-bar {
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    .container-nav {
+        max-width: 800px;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+
+    .name-title {
+        font-size: 2.6rem;
+    }
+    .nav-list {
+        margin-right: 1rem;
+    }
+
+    .nav-list a {
+        font-size: 1.3rem;
+        display: flex;
+    }
+
+    .sobre-mim {
+        width: 700px;
+        margin: 0 auto;
+    }
+
+    .container-sobre {
+        margin-left: 2rem;
+    }
+    .img-sobre {
+        height: 220px;
+    }
+
+    .container-sobre p {
+        font-size: 1.3rem;
+    }
+
+    .cardapio {
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    .title-card {
+        margin: 2rem 0;
+    }
+
+    .container-card {
+        display: block;
+        margin: 0 auto;
+        width: 700px;
+    }
+    .card {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .card h3 {
+        font-size: 1.4rem;
+    }
+
+    .card p {
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+    }
+
+    .contato {
+        width: 800px;
+        margin: 1rem auto 0;
+
+    }
+    .container-contact {
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+    }
+    .card-2 {
+        margin-right: 2rem;
+    }
+    .title-1 {
+        font-size: 1.8rem;
+    }
+    .card-2 h4 {
+        font-size: 1.6rem;
+    }
+    .card-2 p {
+        font-size: 1.4rem ;
+    }
+
+    .social-link a {
+        font-size: 1.8rem;
+    }
+
+    .pay {
+        max-width: 350px;
+    }
+    .pay a {
+        font-size: 1.4rem;
+    }
+
+    .address {
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    .container-address {
+        width: 720px;
+    }
+
+    .card-address h2 {
+        font-size: 2rem;
+    }
+
+    .card-address p {
+        font-size: 1.8rem;
+    }
+    .btn-address a {
+        width: 40%;
+        font-size: 1.8rem;
+    }
+
+    .copy {
+        font-size: 1.9rem;
+    }
+
+}
 
 
 
