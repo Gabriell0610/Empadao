@@ -374,7 +374,7 @@ a:hover {
     }
 
     .contato {
-       width: 785px;
+       width: 800px;
        margin: 0 auto;
     }
     .container-contact {
@@ -384,6 +384,7 @@ a:hover {
        margin: 0;
        border: none;
     }
+
     .title-2{
         margin-top: 1rem;
     }
@@ -403,8 +404,7 @@ a:hover {
 
     
     .pay {
-        width: 300px;
-        margin-right: 280px;
+    
     }
     
 
