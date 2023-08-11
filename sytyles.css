@@ -253,6 +253,7 @@ a:hover {
     width: 800px;
     margin: 0 auto;
     border-bottom: 2px solid black;
+    gap: 180px;
 }
 
 
@@ -268,9 +269,7 @@ a:hover {
     margin-bottom: 1rem;
 }
 
-.descricao {
-    margin-bottom: .4rem;
-}
+
 
 
 .btn-address a {
@@ -282,7 +281,6 @@ a:hover {
     border: 2px solid black;
     width: 20%;
     padding: .3rem .3rem;
-    text-transform: uppercase;
     transition: .3s;
     
 }
@@ -323,7 +321,7 @@ a:hover {
     }
 
     .sobre-mim {
-        width: 700px;
+        width: 740px;
         margin: 0 auto;
     }
 
@@ -339,8 +337,9 @@ a:hover {
     }
 
     .cardapio {
-        width: 800px;
+        width: 820px;;
         margin: 0 auto;
+        margin-bottom: 1rem;
     }
 
     .title-card {
@@ -348,13 +347,20 @@ a:hover {
     }
 
     .container-card {
-        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         margin: 0 auto;
-        width: 700px;
+        width: 770px;
+        border: 0;
     }
     .card {
         width: 300px;
         margin: 0 auto;
+    }
+
+    .card img {
+        width: 295px;
     }
 
     .card h3 {
@@ -364,20 +370,22 @@ a:hover {
     .card p {
         font-size: 1.3rem;
         margin-bottom: 1rem;
+
     }
 
     .contato {
-        width: 800px;
-        margin: 1rem auto 0;
-
+       width: 785px;
+       margin: 0 auto;
     }
     .container-contact {
        flex-direction: column;
        align-items: center;
        justify-content: center;
+       margin: 0;
+       border: none;
     }
-    .card-2 {
-        margin-right: 2rem;
+    .title-2{
+        margin-top: 1rem;
     }
     .title-1 {
         font-size: 1.8rem;
@@ -393,12 +401,12 @@ a:hover {
         font-size: 1.8rem;
     }
 
+    
     .pay {
-        max-width: 350px;
+        width: 300px;
+        margin-right: 280px;
     }
-    .pay a {
-        font-size: 1.4rem;
-    }
+    
 
     .address {
         width: 800px;
