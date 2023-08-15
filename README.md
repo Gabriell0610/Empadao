@@ -1,7 +1,7 @@
 <h1 align="center"> Empadão </h1>
 
 <p align="center">
-Feito para Estudo
+Feito para Estudo, mas com intuito de ajudar minha mãe nas vendas de empadão!
 </p>
 
 <br>
