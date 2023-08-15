@@ -1,7 +1,7 @@
 <h1 align="center"> Empadão </h1>
 
 <p align="center">
-Feito par Estudo
+Feito para Estudo
 </p>
 
 <br>
