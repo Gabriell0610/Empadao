@@ -1,22 +1,25 @@
 * {
     margin: 0;
     padding: 0;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
 }
 
-
+html,
 body {
     background-color: #6c9968;
-    
+    scroll-behavior: smooth;
 }
 
 :root {
     --color-primary: #FFE17B;
-    --color-second: #fff;
-    --color-terceira:#FDFFAE;
-    --color-quarta: #E9FFC2;
-    --color-quinta: #6c9968;
+    --color-second:#FDFFAE;
+    --color-terca: #E9FFC2;
+    --color-quarta: #6c9968;
+    --color-quartaEscuro: #41633e;
+    --color-quartaClaro: #a0d89b;
+    --color-black: black;
+    --color-white: #fff;
 }
 
 ul {
@@ -43,7 +46,7 @@ a:hover {
 }
 
 .nav-bar {
-    border-bottom: 2px solid var(--color-quarta);
+    border-bottom: 2px solid var(--color-terca);
     padding: 0.8rem;
 }
 
@@ -51,8 +54,9 @@ a:hover {
     display: flex;
     gap: 1rem;
 }
+
 .name-title {
-    color: #FFE17B;
+    color: var(--color-primary);
     font-size: 2.5rem;
     font-weight: 600px;
     font-family: 'Satisfy', cursive;
@@ -67,7 +71,7 @@ a:hover {
 
 .title-sobre {
     text-align: center;
-    color: #fff;
+    color: var(--color-white);
     font-size: 2.8rem;
     margin-top: 1.6rem;
 }
@@ -81,11 +85,11 @@ a:hover {
     align-items: center;
     gap: 1.2rem;
     padding: 2rem 1.3rem;
-    border-bottom: 2px solid var(--color-quarta);
+    border-bottom: 2px solid var(--color-terca);
 }
 
 .container-sobre p {
-    color: #fff;
+    color: var(--color-white);
     font-size: 1.3rem;
     margin-top: .5rem;
 
@@ -119,20 +123,21 @@ a:hover {
 
 .title-card {
     text-align: center;
-    color: #fff;
+    color: var(--color-white);
     font-size: 2.6rem;
     margin: 3rem 0;
 }
+
 .card p {
     text-align: center;
-    color: #fff;
+    color: var(--color-white);
     font-size: 1.1rem;
 }
 
 .card h3 {
     text-align: center;
     padding: .6rem;
-    color: #f5d87b;
+    color: var(--color-primary);
     font-size: 1.3rem;
 }
 
@@ -150,11 +155,11 @@ a:hover {
     justify-content: space-between;
     width: 800px;
     margin: 0 auto;
-    border-bottom: 2px solid var(--color-quarta);
+    border-bottom: 2px solid var(--color-terca);
 }
 
 .card-2 {
-    color: #6c9968;
+    color: var(--color-quarta);
     text-align: center;
 }
 
@@ -188,40 +193,39 @@ a:hover {
 }
 
 .social-link a:hover {
-    background: var(--color-quinta);
-    color: #fff;
+    background: var(--color-quarta);
+    color: var(--color-white);
 }
 
 
 /* Botao de pedido */
-
 .pay {
     max-width: 200px;
     margin: 2rem auto;
  
 }
 
- .pay a{
-        display: block;
-        height: 40px;
-        line-height: 40px;
-        font-size: 1.1rem;
-        font-family: sans-serif;
-        text-decoration: none;
-        color: #333;
-        border: 2px solid #333;
-        letter-spacing: 2px;
-        text-align: center;
-        position: relative;
-        transition: all .35s;
-        text-transform: uppercase;
-        font-weight: bold;
- }
+.pay a{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+    text-transform: uppercase;
+    font-weight: bold;
+}
 
- a span{
+ a span {
     position: relative;
     z-index: 2;
-  }
+}
 
 .pay a:after{
     position: absolute;
@@ -230,22 +234,22 @@ a:hover {
     left: 0;
     width: 0;
     height: 100%;
-    background: var(--color-quinta);
+    background: var(--color-quarta);
     transition: all .35s;
-  } 
+} 
 
  .pay a:hover{
-    color: #fff;
-  }
+    color: var(--color-white);
+}
   
 .pay a:hover:after{
     width: 100%;
-  } 
+} 
 
 .address {
-    background-color: #fff;
+    background-color:var(--color-white);
     padding: 2.5rem 1rem;
-  }
+}
 
 .container-address {
     display: flex;
@@ -253,13 +257,13 @@ a:hover {
     justify-content: space-between;
     width: 800px;
     margin: 0 auto;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid var(--color-black);
     gap: 180px;
 }
 
 
 .card-address {
-    color: black;
+    color: var(--color-black);
     width: 400px;
     margin: 0 auto;
 }
@@ -271,15 +275,13 @@ a:hover {
 }
 
 
-
-
 .btn-address a {
-    color: black;
+    color: var(--color-black);
     display: flex;
     align-items: center;
     justify-content: center;
     gap: .4rem;
-    border: 2px solid black;
+    border: 2px solid var(--color-black);
     width: 20%;
     padding: .3rem .3rem;
     transition: .3s;
@@ -287,8 +289,8 @@ a:hover {
 }
 
 .btn-address a:hover {
-    color: #fff;
-    background-color: var(--color-quinta);
+    color: var(--color-white);
+    background-color: var(--color-quarta);
 }
 
 .copy {
@@ -297,6 +299,38 @@ a:hover {
     margin-top: 1rem;
 }
 
+
+/* btnTop */
+#btnTop {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    right: 50px;
+    bottom: 40px;
+    width: 50px;
+    height: 50px;
+    background-color: var(--color-quartaClaro);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.arrow {
+    border: solid var(--color-quartaEscuro);
+    border-width: 0 7px 7px 0;
+    padding: 5px;
+    display: inline-block;
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg) ;
+}
+
+
+
+/* Resposividade */
 @media (max-width:425px) {
     .nav-bar {
         width: 810px;
