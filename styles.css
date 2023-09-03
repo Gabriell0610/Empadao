@@ -14,10 +14,10 @@ body {
 :root {
     --color-primary: #FFE17B;
     --color-second:#FDFFAE;
-    --color-terca: #E9FFC2;
+    --color-terca: #dff8be;
     --color-quarta: #6c9968;
     --color-quartaEscuro: #41633e;
-    --color-quartaClaro: #a0d89b;
+    --color-quartaClaro: #aadba6;
     --color-black: black;
     --color-white: #fff;
 }
@@ -118,7 +118,7 @@ a:hover {
 .card img {
     width: 300px;
     height: 200px;
-    border: 3px solid var(--color-quarta);
+    border: 3px solid var(--color-second);
 }
 
 .title-card {
@@ -222,7 +222,7 @@ a:hover {
     font-weight: bold;
 }
 
- a span {
+a span {
     position: relative;
     z-index: 2;
 }
@@ -238,13 +238,15 @@ a:hover {
     transition: all .35s;
 } 
 
- .pay a:hover{
+.pay a:hover{
     color: var(--color-white);
 }
   
 .pay a:hover:after{
     width: 100%;
 } 
+
+/* footer */
 
 .address {
     background-color:var(--color-white);
@@ -268,10 +270,16 @@ a:hover {
     margin: 0 auto;
 }
 
-.card-address p {
+.descricao-address1 {
     font-size: 1.4rem;
     line-height: 1.8rem;
     margin-bottom: 1rem;
+}
+
+.descricao-address2 {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    margin-bottom: 2.5rem;
 }
 
 
