@@ -12,5 +12,5 @@ Acesse o site aqui ---> https://gabriell0610.github.io/Empadao/
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
-- JavaScript EM BREVE
+- JavaScript 
 - Git e Github
