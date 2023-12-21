@@ -1,7 +1,7 @@
 ## Empadão 
 Feito para Estudo, mas com intuito de ajudar minha mãe nas vendas de empadão!
-
 <br>
+
 Projeto ainda em andamento, vou adicionar mais funcionalidadades onde o cliente irá conseguir fazer o pedido, adicionar ao carrinho, avaliar o preço, cardápio, cadastro de usuário...
 
 ## 🚀 Tecnologias
