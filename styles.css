@@ -274,6 +274,7 @@ a span {
     font-size: 1.4rem;
     line-height: 1.8rem;
     margin-bottom: 1rem;
+    padding: 0 1rem 0 0;
 }
 
 .descricao-address2 {
